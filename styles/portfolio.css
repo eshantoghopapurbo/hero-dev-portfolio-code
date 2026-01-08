@@ -37,7 +37,7 @@
 header{
     background-color: #FFF8F3;
     background: url(../images/developer.png),url(../images/header_bg.png), #FFF8F3;
-    background-position: top left , bottom right;
+    background-position: 23px 38px , bottom right;
     background-repeat: no-repeat;
     padding-top: 50px;
 }
@@ -324,11 +324,19 @@ margin-bottom: 20px;
     margin-right: 24px;
 }
 
-.footer-container form input [type="text"]  , .footer-container form textarea{
+.footer-container form input [type="text"], .footer-container form textarea {
     width: 461px;
     padding: 18px 31px;
     margin-bottom: 24px;
     border: none;
     border-radius: 5px;
+
     color: #757575;
+}
+
+.name{
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 461px;
 }
